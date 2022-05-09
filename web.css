@@ -1,0 +1,436 @@
+ * {
+     padding: 0;
+     margin: 0;
+     scroll-behavior: smooth;
+     box-sizing: border-box;
+ }
+ 
+ header {
+     width: 100%;
+     height: 100vh;
+     background: linear-gradient(to right,rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.096)),url(.//1.jpg);
+ }
+ .logo{
+
+ }
+ ol{
+     width: 700px;
+     height: 50px;
+     position: absolute;
+     left: 48%;
+     top: 15px;
+     
+ }
+.logo{
+
+}
+ li{
+    display:  inline-flex;
+    justify-content: space-around;
+    position: relative;
+    margin: .5em;
+
+ }
+ol li a{
+    text-decoration: none;
+    color: white;
+/*border-bottom: solid 3px #2DC071;*/
+transition: .2s border-bottom;
+ }
+ ol li a:hover{
+    border-bottom: solid 3px #2DC071;
+
+ }
+
+
+
+ .importnt{
+width: 99.7%;
+height: 40px;
+border: solid 2px  #2DC071;
+background: #2dc0726b;
+position: relative;
+top: 4em;
+overflow: hidden;
+border-radius: 10px;
+ }
+ .importnt h3{
+     position: relative;
+     display: inline;
+     color: red;
+     top: .3em;
+     left: 10px;
+ }
+ 
+ .importnt p{
+     display: inline-block;
+     color: white;
+     position: relative;
+     top: .35em;
+     left: 10px;
+     animation:25s importnt  infinite  linear;
+ }
+ @keyframes importnt {
+     0%{
+         left: 2%;
+     }
+
+    100%{
+        left: 100%;
+
+    }
+
+ }
+
+.department{
+    position: relative;
+    top:3.5em;
+    color: #2DC071;
+    left: 2em;
+    font-size: 60px;
+    width: 500px;
+    -webkit-text-stroke: .1vw  #2dc072;
+}
+/*.department::before{
+content: attr(data-text);
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 0%;
+color:#2DC071;
+-webkit-text-stroke: 0vw  #2DC071;
+overflow: hidden;
+animation: animate22 7s infinite linear;
+border-right: solid 2px #2DC071;
+}
+@keyframes animate22 {
+0%,10%,100%{
+    width: 0;
+}
+70%,90%{
+    width: 70%;
+}}*/
+.department2{
+    position: relative;
+    top:3.5em;
+    color: #2d72c000;
+    left: 5em;
+    width: 100px;
+    font-size:60px;
+    -webkit-text-stroke: 0.1vw  #2DC071;
+}
+.department2::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+width: 0%;
+color:#2DC071;
+-webkit-text-stroke: 0vw  #2DC071;
+overflow: hidden;
+animation: animate2 7s infinite linear;
+border-right: solid 2px #2DC071;
+}
+@keyframes animate2 {
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 400%;
+    }
+}
+.department-para{
+    position: relative;
+    width: 350px;
+    top: 9em;
+    left: 3em;
+    height: 90px;
+    color: #2DC071;
+    font-size: 30px !important;
+
+}
+.button1le{
+    position: relative;
+    width: 180px;
+    height: 50px;
+    border: solid 2px #2DC071;
+    border-radius: 5px;
+    top: 16em;
+    left: 5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.button2ad{
+    position: relative;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #2DC071;
+    border-radius: 5px;
+    top: 13.3em;
+    background: #2DC071;
+    color: white;
+    text-align: center;
+    left: 15em;
+    transition: color .4s , background  .4s,border .4s ;
+    cursor: pointer;
+}
+
+/*.button2ad:hover{
+    color: #2DC071;
+    background: white;
+    border: white;
+}*/
+#about{
+    width: 100%;
+    height: 100vh;
+    background: #2dc072;
+    scroll-behavior: smooth;
+
+}
+.about h1{
+position: relative;
+top: 1em;
+left: 45%;
+text-align: center;
+color: white;
+
+width: 100px;
+text-shadow:20px 20px 50px rgba(0, 0, 0, 0.7) ;
+
+}
+
+.box{
+position: relative;
+width: 200px;
+height: 300px;
+transform-style: preserve-3d;
+animation: animate 55s infinite linear;
+top: 30%;
+left: 65%;
+
+}
+
+@keyframes animate {
+    0%{
+        transform: perspective(1000px) rotateY(0);
+    }
+    100%{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+.box span{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+transform-origin: center;
+transform-style: preserve-3d;
+transform: rotateY(calc(var(--i)*45deg) ) translateZ(250px);
+
+}
+.box span img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.247);
+    border-radius:20px ;
+}
+.paragraphe{
+    width: 400px;
+    height:500px;
+   /* border: solid 2px black;*/
+   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3),-20px -20px 50px rgba(0, 0, 0, 0.15);
+    position: relative;
+    top: -10em;
+    left: 3.5em;
+    border-radius: 20px;
+    background:rgba(255, 255, 255, 0.1) ;
+    backdrop-filter: blur(5px);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+  transform: translate(0,0);
+  transition: transform .6s ,box-shadow .6s;
+}
+.paragraphe:hover{
+    transform: translate(12px,12px);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5),-20px -20px 50px rgba(0, 0, 0, 0.322);
+}
+.paragraphe p{
+    padding: 20px;
+    color: white;
+}
+ .line1{
+    background: #008120;
+    width: 100%;
+    height: 4px;
+
+}
+#speciality{
+    width: 100%;
+    height: 90vh;
+position: relative;
+top: -8em;
+    background: #2DC071;
+}
+#speciality .titlespe {
+    color: white;
+    position: relative;
+    top: 1em;
+    width: 200px;
+    left: 44%;
+    text-shadow:20px 20px 50px rgba(0, 0, 0, 0.7) ;
+
+}
+.license{
+    color: white;
+    position: relative;
+    text-shadow:20px 20px 50px rgba(0, 0, 0, 0.7) ;
+top: 4em;
+left: 48%;
+width: 100px;
+}
+.master{
+    color: white;
+    position: relative;
+    text-shadow:20px 20px 50px rgba(0, 0, 0, 0.7) ;
+    width: 100px;
+    left: 49%;
+top:5em;
+}
+.choix1{
+    width: 450px;
+    height: 70px;
+    position: relative;
+    top:7em;
+    left: 8em;
+    border-radius: 20px;
+    border: solid 2px black;
+    background: white;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3),-20px -20px 50px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition:  width .5s,overflow .5s;
+}
+.choix1:hover{
+    width: 500px;
+}
+.choix1 img {
+    border-radius: 20px 0 0 20px;
+    position: relative;
+    top: -0.11em;
+    right: 0.1em;
+}
+
+.choix1 h6{
+    color: black;
+    position: relative;
+    top: -2.2em;
+    left: 11em;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    cursor: pointer;
+     overflow: none;
+   
+    
+}
+.choix1:hover h6{
+    overflow: hidden;
+}
+.choix2{
+    width: 450px;
+    height: 70px;
+    position: relative;
+    top: 3.5em;
+    left: 40em;
+    border-radius: 20px;
+    border: solid 2px black;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3),-20px -20px 50px rgba(0, 0, 0, 0.2);
+    transition:  width .5s;
+    background: white;
+    cursor: pointer;cursor: pointer;
+    transition:  width .5s;
+}
+.choix2:hover{
+  width: 500px;
+}
+.choix3{
+    width: 450px;
+    height: 70px;
+    position: relative;
+    top: 7em;
+    left: 7em;
+    border-radius: 20px;
+    border: solid 2px black;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3),-20px -20px 50px rgba(0, 0, 0, 0.2);
+    background: white;
+    cursor: pointer;
+    cursor: pointer;
+    transition:  width .5s;
+}
+.choix3:hover{
+    width: 500px;
+  }
+.choix4{
+    width: 450px;
+    height: 70px;
+    position: relative;
+    top: 3.5em;
+    left: 41em;
+    border-radius: 20px;
+    border: solid 2px black;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3),-20px -20px 50px rgba(0, 0, 0, 0.2);
+    background: white;
+    cursor: pointer;
+    cursor: pointer;
+    transition:  width .5s;
+}
+.choix4:hover{
+    width: 500px;
+  }
+.choix5{
+    width: 450px;
+    height: 70px;
+    position: relative;
+    top: 7em;
+    left: 7em;
+    border-radius: 20px;
+    border: solid 2px black;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3),-20px -20px 50px rgba(0, 0, 0, 0.2);
+    background: white;
+    cursor: pointer;
+    cursor: pointer;
+    transition:  width .5s;
+}
+.choix5:hover{
+    width: 500px;
+  }
+.choix6{
+    width: 450px;
+    height: 70px;
+    position: relative;
+    top: 3.5em;
+    left: 41em;
+    border-radius: 20px;
+    border: solid 2px black;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3),-20px -20px 50px rgba(0, 0, 0, 0.2);
+    background: white;
+    cursor: pointer;
+    cursor: pointer;
+    transition:  width .5s;
+}
+.choix6:hover{
+    width: 500px;
+  }
