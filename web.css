@@ -275,11 +275,11 @@ transform: rotateY(calc(var(--i)*45deg) ) translateZ(250px);
 }
 .paragraphe{
     width: 400px;
-    height:500px;
+    height:550px;
    /* border: solid 2px black;*/
    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3),-20px -20px 50px rgba(0, 0, 0, 0.15);
     position: relative;
-    top: -10em;
+    top: -12em;
     left: 3.5em;
     border-radius: 20px;
     background:rgba(255, 255, 255, 0.1) ;
@@ -290,6 +290,16 @@ transform: rotateY(calc(var(--i)*45deg) ) translateZ(250px);
   transition: transform .6s ,box-shadow .6s;
   cursor: pointer;
 }
+.paragraphe a{
+    color: black;
+   
+    border-radius: 10px;
+    text-decoration: none;
+}
+.paragraphe a:hover{
+    color: red;
+}
+
 .paragraphe:hover{
     transform: translate(12px,12px);
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5),-20px -20px 50px rgba(0, 0, 0, 0.322);
@@ -674,8 +684,11 @@ box-shadow: 20px 20px 50px rgba(255, 255, 255, 0.1),-20px -20px 50px rgba(255, 2
 }
 #teachers{
 width: 100%;
-height: 100vh;
+height: 80vh;
 background:linear-gradient(to bottom,rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(.//kk.jpg) no-repeat fixed;
+transform-origin: center;
+transform-style: preserve-3d;
+
 }
 .titleteacher{
     position: relative;
@@ -683,6 +696,392 @@ background:linear-gradient(to bottom,rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url
     left: 45%;
     text-align: center;
     color: white;
-    width: 100px;
+    width: 200px;
     text-shadow:20px 20px 50px rgba(0, 0, 0, 0.7)  ;  
+
+  
+
+}
+.postteacher1{
+width: 200px;
+border-radius: 20px;
+
+height: 200px;
+position: relative;
+top:10.8em;
+display: inline-block;
+overflow: hidden;
+left: -12em;
+background:rgba(255, 255, 255, 0.1) ;
+backdrop-filter: blur(5px);
+border-top: 1px solid rgba(255, 255, 255, 0.4);
+border-left: 1px solid rgba(255, 255, 255, 0.2);
+border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+border-right: 1px solid rgba(255, 255, 255, 0.2);
+box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5),-20px -20px 50px rgba(0, 0, 0, 0.322);
+cursor: pointer;
+
+}
+.postteacher2{
+    width: 200px;
+    border-radius: 20px;
+    height: 200px;
+    position: relative;
+    top: -0em;
+    left: 17em;
+    overflow: hidden;
+   
+    background:rgba(255, 255, 255, 0.1) ;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5),-20px -20px 50px rgba(0, 0, 0, 0.322);
+    transform: rotateY(calc(var(--l)*45deg) ) translateZ(250px);
+   
+    }
+    .postteacher3{
+        width: 200px;
+        
+        border-radius: 20px;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+        top: -10em;
+        background:rgba(255, 255, 255, 0.1) ;
+        backdrop-filter: blur(5px);
+        border-top: 1px solid rgba(255, 255, 255, 0.4);
+        border-left: 1px solid rgba(255, 255, 255, 0.2);
+       
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5),-20px -20px 50px rgba(0, 0, 0, 0.322);
+        left: 41em;
+        cursor: pointer;
+      
+        }
+        .postteacher4{
+            background:rgba(255, 255, 255, 0.1) ;
+            backdrop-filter: blur(5px);
+            border-top: 1px solid rgba(255, 255, 255, 0.4);
+            border-left: 1px solid rgba(255, 255, 255, 0.2);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+            cursor: pointer;
+            border-right: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5),-20px -20px 50px rgba(0, 0, 0, 0.322);
+            width: 200px;
+            border-radius: 20px;
+            height: 200px;
+            position: relative;
+          
+            top: -20em;
+            overflow: hidden;
+           
+            left: 29em;
+            
+            }
+            .postteacher5{
+                width: 200px;
+                border-radius: 20px;
+                height: 200px;
+                background:rgba(255, 255, 255, 0.1) ;
+           
+                backdrop-filter: blur(5px);
+                border-top: 1px solid rgba(255, 255, 255, 0.4);
+                border-left: 1px solid rgba(255, 255, 255, 0.2);
+                border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+                border-right: 1px solid rgba(255, 255, 255, 0.2);
+                box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5),-20px -20px 50px rgba(0, 0, 0, 0.322);
+                position: relative;
+                overflow: hidden;
+                cursor: pointer;
+                top: -30em;
+                left: 53em;
+                
+                }
+
+              
+                .postteacher1 .round{
+                    position: relative;
+                    width: 100px;
+                    height: 100px ;
+                    top: 1em;
+                    left: 2.3em;
+                    overflow: hidden;
+                    background: black;
+                    border-radius: 100%;
+                    border: solid 2px rgba(255, 255, 255, 0.4);
+                    transition: top .5s,box-shadow .5s;
+                    box-shadow:5px 5px 50px rgba(0, 0, 0, 0.301);
+                }
+                .postteacher1:hover .round{
+                    top:-.01em ;
+                   box-shadow:20px 20px 50px rgba(221, 221, 221, 0.401),-20px -20px 50px rgba(221, 221, 221, 0.401);
+                }
+                .postteacher2:hover .round2{
+                    top:-.01em ;
+                   box-shadow:20px 20px 50px rgba(221, 221, 221, 0.401),-20px -20px 50px rgba(221, 221, 221, 0.401);
+                }
+                .postteacher3:hover .round3{
+                    top:-.01em ;
+                   box-shadow:20px 20px 50px rgba(221, 221, 221, 0.401),-20px -20px 50px rgba(221, 221, 221, 0.401);
+                }
+                .postteacher4:hover .round4{
+                    top:-.01em ;
+                   box-shadow:20px 20px 50px rgba(221, 221, 221, 0.401),-20px -20px 50px rgba(221, 221, 221, 0.401);
+                }
+                .postteacher5:hover .round5{
+                    top:-.01em ;
+                   box-shadow:20px 20px 50px rgba(221, 221, 221, 0.401),-20px -20px 50px rgba(221, 221, 221, 0.401);
+                }
+                .postteacher2 .round2{
+                    position: relative;
+                    width: 100px;
+                    height: 100px ;
+                    top: 1em;overflow: hidden;
+                    border-radius: 100%;
+                    left: 2.3em;
+                    border: solid 2px rgba(255, 255, 255, 0.4);
+                    border: solid 2px rgba(255, 255, 255, 0.4);
+                    transition: top .5s,box-shadow .5s;
+                    box-shadow:5px 5px 50px rgba(0, 0, 0, 0.301);
+                    background: black;
+                }
+                .postteacher3 .round3{
+                    position: relative;
+                    width: 100px;
+                    height: 100px ;
+                    top: 1em;
+                    left: 2.3em;
+                    overflow: hidden;
+                    background: black;
+                    border-radius: 100%;
+                    border: solid 2px rgba(255, 255, 255, 0.4);
+                    transition: top .5s,box-shadow .5s;
+                    box-shadow:5px 5px 50px rgba(180, 180, 180, 0.301);
+                  
+                }
+                .postteacher4 .round4{
+                    position: relative;
+                    width: 100px;
+                    overflow: hidden;
+                    height: 100px ;
+                    top: 1em;
+                    background: black;
+                    left: 2.4em;
+                    border-radius: 100%;
+                    border: solid 2px rgba(255, 255, 255, 0.4);
+                    transition: top .5s,box-shadow .5s;
+                    box-shadow:5px 5px 50px rgba(0, 0, 0, 0.301);
+                }
+                .postteacher5 .round5{
+                    position: relative;
+                    background: black;
+                    width: 100px;
+                    left: 2.3em;
+                    border: solid 2px rgba(255, 255, 255, 0.4);
+                    overflow: hidden;
+                    transition: top .5s,box-shadow .5s;
+                    box-shadow:5px 5px 50px rgba(0, 0, 0, 0.301);
+                    height: 100px ;
+                    top: 1em;
+                    border-radius: 100%;
+                   
+                }
+                input[type="search"]{
+                    border: none;
+                    background:rgba(255, 255, 255, 0.1) ;
+                    backdrop-filter: blur(5px);
+                    border-radius: 20px;
+                    width: 300px;
+                    height: 40px;
+                    position: relative;
+                    top: -5em;
+                    left: 55em;
+                    cursor: pointer;
+                    border-top: 1px solid rgba(255, 255, 255, 0.4);
+                    border-left: 1px solid rgba(255, 255, 255, 0.2);
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+                    border-right: 1px solid rgba(255, 255, 255, 0.2);
+                    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5),-20px -20px 50px rgba(0, 0, 0, 0.322);
+                }
+                #teachers .img{
+                    width: 20px;
+                    position: relative;
+                    top: -4em;
+                    left: 45.5em;
+                    cursor: pointer;
+                }
+
+
+                .postteacher1 h4{
+                    color: white;
+                    position: relative;
+                    top: 2em;
+                    width: 200px;
+                    height: 50px;
+                    right: -1.6em;
+                    transition: top .9s;
+                }
+                .postteacher1:hover h4{
+                    top: .5em;
+                }
+                .postteacher2 h4{
+                    color: white;
+                    position: relative;
+                    top: 2em;
+                    width: 150px;
+                    height: 50px;
+                    right: -1.6em;
+                    transition: top .9s;
+                }
+                .postteacher2:hover h4{
+                    top: .5em;
+                }
+                .postteacher3 h4{
+                    color: white;
+                    position: relative;
+                    top: 2em;
+                    transition: top .9s;
+                    width: 150px;
+                    height: 50px;
+                    right: -1.8em;
+                }
+                .postteacher3:hover h4{
+                    top: .5em;
+                }
+                .postteacher4 h4{
+                    color: white;
+                    position: relative;
+                    top: 2em;
+                    width: 150px;
+                    transition: top .9s;
+                    height: 50px;
+                    right: -1.6em;
+                }
+                .postteacher4:hover h4{
+                    top: .5em;
+                }
+                .postteacher5 h4{
+                    color: white;
+                    position: relative;
+                    top: 2em;
+                    width: 150px;
+                    transition: top .9s;
+                    height: 50px;
+                    right: -1.6em;
+                }
+                .postteacher5:hover h4{
+                    top: .5em;
+                }
+                .loginadd{
+                   width: 300px ;
+                   height: 300px;
+                   background:rgba(255, 255, 255, 0.6) ;
+                    border-radius: 20px;
+          display: none;
+          border: solid 2px black;
+          position: relative;
+          top: -5em;
+          left: 42em;
+          cursor: pointer;
+                }
+                input[type="email"]{
+                    border: none;
+                    background:rgba(255, 255, 255, 0.1) ;
+                    backdrop-filter: blur(3px);
+                    border-radius:10px;
+                    width:250px;
+                    height: 40px;
+                    cursor: pointer;
+                    position: relative;
+                    top: 2em;
+                    left: 1em;
+                    border: solid 2px black;
+                    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2),-20px -20px 50px rgba(0, 0, 0, 0.322);
+                }
+                .loginem{
+                    color: black;
+                    position: relative;
+                    bottom: -1em;
+                    left: 1.5em;
+                }
+                .loginpass{
+                    color: black;
+                    position: relative;
+                    right: -1.5em;
+                    top: 2.5em;
+                }
+                input[type="password"]{
+                    border: none;
+                    background:rgba(255, 255, 255, 0.1) ;
+                    backdrop-filter: blur(3px);
+                    border-radius:10px;
+                    width:250px;
+                    height: 40px;
+                    cursor: pointer;
+                    position: relative;
+                    top: 3.5em;
+                    left: 1.1em;
+                   border: solid 2px black;
+                    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2),-20px -20px 50px rgba(0, 0, 0, 0.322);
+                }
+                input[type="submit"]{
+                 width: 100px;
+                 height: 40px;
+                    border-radius: 10px;
+                    border: solid 2px black;
+                    position: relative;
+                    font-size: 25px;
+                    right: -3.8em;
+    cursor: pointer;
+                    top: 4em;
+                    text-align: center;
+                }
+               .emailimg1{
+                    position: relative;
+                top: 4em;
+                left: 4em;
+                transition: top .5s;
+                }
+               .postteacher1:hover .emailimg1{
+                  top: .2em;
+               }
+               .emailimg2{
+                position: relative;
+            top: 4em;
+            left: 4em;
+            transition: top .5s;
+            }
+           .postteacher2:hover .emailimg2{
+              top: .2em;
+           }
+           .emailimg3{
+            position: relative;
+        top: 4em;
+        left: 4em;
+        transition: top .5s;
+        }
+       .postteacher3:hover .emailimg3{
+          top: .2em;
+       }
+       .emailimg4{
+        position: relative;
+    top: 4em;
+    left: 4em;
+    transition: top .5s;
+    }
+   .postteacher4:hover .emailimg4{
+      top: .2em;
+   }
+   .emailimg5{
+    position: relative;
+top: 4em;
+left: 4em;
+transition: top .5s;
+}
+.postteacher5:hover .emailimg5{
+  top: .2em;
 }

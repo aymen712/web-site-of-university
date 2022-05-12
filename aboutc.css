@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.BIENVENUE{
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.349),rgba(0, 0, 0, 0.466)),url(.//88.jpg) fixed;
+    width: 100%;
+    height: 50vh;
+}
+.BIENVENUE h1{
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 2em;
+    font-family: 'Bebas Neue', cursive;
+}
+.BIENVENUE p{
+    color:white;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    top: 7em;
+    font-family: 'Bebas Neue', cursive;
+    left: 24em;
+}
+.BIENVENUE1{
+    width: 100%;
+    height: 120vh;
+}
+.BIENVENUE1 h1{
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+position: relative;
+top: 2em;
+left: 14em;
+width: 250px;
+border-bottom: solid 4px black;
+}
+.BIENVENUE1 p{
+    width: 900px;
+    height: 200px;
+    position: relative;
+    top: 8em;
+    left: 13em;
+    color: black;
+}
+.histore{
+    width: 460px;
+    position: relative;
+    font-family: 'Bebas Neue', cursive;
+top: 10em;
+border-bottom: solid 4px black;
+left: 20em;
+
+}
+
+.BIENVENUE1 .parablida{
+    position: relative;
+    top: 15em;
+    height: 300px;
+}
