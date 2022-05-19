@@ -87,12 +87,12 @@ $database3=new  PDO("mysql:host=localhost; dbname=aymen;",$user,$password);
         <div class="line1"></div>
         <h1 class="titlespe">speciality</h1>
         <h3 class="license">License</h3>
-        <a href=".//sik.html" target="blank" style="text-decoration: none;">
+        <a href=".//sique.html" target="blank" style="text-decoration: none;">
             <div class="choix1">
                 <h1>si</h1>
             </div>
         </a>
-        <a href=".//izil.html" target="blank" style="text-decoration: none;">
+        <a href=".//isil.html" target="blank" style="text-decoration: none;">
             <div class="choix2">
                 <h1>Isil</h1>
             </div>
