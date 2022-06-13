@@ -32,7 +32,7 @@ $database3=new  PDO("mysql:host=localhost; dbname=aymen;",$user,$password);
             </ol>
             <div class="importnt">
                 <h3>importnt:</h3>
-                <p>la date de examen 2022/01/17</p>
+                <p>la date de l'examen: 2022/01/17</p>
             </div>
             <h1 class="department" data-text="Department of">Department of </h1>
             <h1 class="department2" data-text="Informatics...."> Informatics....</h1>
@@ -76,10 +76,11 @@ $database3=new  PDO("mysql:host=localhost; dbname=aymen;",$user,$password);
         <div class="line2"></div>
 
         <div class="planningtab1">
-            <a href=".//cour.html" target="blank"><img src=".//images/pp.jpg" alt="" srcset=""></a>
+            <a href="cour.html" target="blank"><img src=".//images/pp.jpg" alt="" srcset=""></a>
             <h1>cour</h1>
         </div>
-        <div class="planningtab2"><img src=".//images/ll.jpg" alt="">
+        <div class="planningtab2">
+            <a href="examen.html" target="blank"><img src=".//images/ll.jpg" alt=""></a>
             <h1>examen</h1>
         </div>
     </div>
@@ -98,7 +99,7 @@ $database3=new  PDO("mysql:host=localhost; dbname=aymen;",$user,$password);
             </div>
         </a>
         <h3 class="master">Master</h3>
-        <a href=".//sir.html" target="blank" style="text-decoration: none;">
+        <a href=".//php/sir.html" target="blank" style="text-decoration: none;">
             <div class="choix3">
                 <h1>SIR</h1>
             </div>
@@ -124,20 +125,20 @@ $database3=new  PDO("mysql:host=localhost; dbname=aymen;",$user,$password);
         <input type="search" placeholder="   search">
         <img src=".//search-svgrepo-com.svg" alt="" srcset="" style="width: 20px;" class="img">
         <div class="postteacher1">
-            <div class="round"></div>
-            <h4>amina abbaci</h4><img src=".//images/gmail (2).png" class="emailimg1"></div>
+            <div class="round"><img src=".//images/man.png" alt="" style="width:100px; height:100px; position:relative; right:2px; bottom:4px;"></div>
+            <h4> ait mustapha</h4><img src=".//images/gmail (2).png" class="emailimg1" ></div>
         <div class="postteacher2">
-            <div class="round2"></div>
-            <h4>amina abbaci</h4><img src=".//images/gmail (2).png" class="emailimg2"></div>
+            <div class="round2"><img src=".//images/woman 1.png" alt="" style="width:100px; height:100px; position:relative; right:2px; bottom:4px;"></div>
+            <h4>abde hafidha</h4><img src=".//images/gmail (2).png" class="emailimg2"></div>
         <div class="postteacher3">
-            <div class="round3"></div>
-            <h4>amina abbaci</h4><img src=".//images/gmail (2).png" class="emailimg3"></div>
+            <div class="round3"><img src=".//images/woman 1.png" alt="" style="width:100px; height:100px; position:relative; right:2px; bottom:4px;"></div>
+            <h4>aroussi sana</h4><img src=".//images/gmail (2).png" class="emailimg3"></div>
         <div class="postteacher4">
-            <div class="round4"></div>
-            <h4>amina abbaci</h4><img src=".//images/gmail (2).png" class="emailimg4"></div>
+            <div class="round4"><img src=".//images/man.png" alt="" style="width:100px; height:100px; position:relative; right:2px; bottom:4px;"></div>
+            <h4>abde hafidha</h4><img src=".//images/gmail (2).png" class="emailimg4"></div>
         <div class="postteacher5">
-            <div class="round5"></div>
-            <h4>aminaabbaci</h4><img src=".//images/gmail (2).png" class="emailimg5"></div>
+            <div class="round5"><img src=".//images/woman 1.png" alt="" style="width:100px; height:100px; position:relative; right:2px; bottom:4px;"></div>
+            <h4>boumahdi fatima</h4><img src=".//images/gmail (2).png" class="emailimg5"></div>
     </div>
 
     <script src=".//web.js"></script>

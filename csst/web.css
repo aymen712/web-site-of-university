@@ -153,6 +153,7 @@ ol li a:hover {
     left: 5em;
     background: rgba(255, 255, 255, 0.1);
     text-align: center;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -760,7 +761,7 @@ ol li a:hover {
     top: 1em;
     left: 2.3em;
     overflow: hidden;
-    background: black;
+  
     border-radius: 100%;
     border: solid 2px rgba(255, 255, 255, 0.4);
     transition: top .5s, box-shadow .5s;
@@ -804,7 +805,7 @@ ol li a:hover {
     border: solid 2px rgba(255, 255, 255, 0.4);
     transition: top .5s, box-shadow .5s;
     box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.301);
-    background: black;
+   
 }
 
 .postteacher3 .round3 {
@@ -814,7 +815,7 @@ ol li a:hover {
     top: 1em;
     left: 2.3em;
     overflow: hidden;
-    background: black;
+    background: rgb(180, 57, 57);
     border-radius: 100%;
     border: solid 2px rgba(255, 255, 255, 0.4);
     transition: top .5s, box-shadow .5s;
@@ -827,7 +828,7 @@ ol li a:hover {
     overflow: hidden;
     height: 100px;
     top: 1em;
-    background: black;
+
     left: 2.4em;
     border-radius: 100%;
     border: solid 2px rgba(255, 255, 255, 0.4);
@@ -837,7 +838,7 @@ ol li a:hover {
 
 .postteacher5 .round5 {
     position: relative;
-    background: black;
+  
     width: 100px;
     left: 2.3em;
     border: solid 2px rgba(255, 255, 255, 0.4);
@@ -1017,7 +1018,7 @@ input[type="submit"] {
 
 .emailimg1 {
     position: relative;
-    top: 4em;
+    top: 50%;
     left: 4em;
     transition: top .5s;
 }

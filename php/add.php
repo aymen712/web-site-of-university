@@ -2,18 +2,18 @@
 $username="root";
 $password="";
 $database=new PDO("mysql:host=localhost; dbname=aymen;",$username,$password);
-$name=$_POST['name-teacher'];
-$email=$_POST['email-teacher'];
-if (isset($_POST['login1'])) {
-$addData=$database->prepare("INSERT INTO  teacher (name,email) VALUES('$name','$email')");
+
+if (isset($_GET['login1'])) {$name1=$_GET['name1'];
+$email=$_GET['email1'];
+$addData=$database->prepare("INSERT INTO  teacher (name,email) VALUES('$name1','$email')");
   $addData->execute();
-  ?>
-  <script>alert("add successfully");</script>
-<?php
+ 
+ 
 }
 
-if (isset($_POST['delete'])) {
-    $email_delete=$_POST['delete-email'];
+if (isset($_GET['delete'])) {
+    
+    $email_delete=$_GET['email'];
     $addData1=$database->prepare(" DELETE FROM teacher WHERE email='$email_delete'");
     $addData1->execute();
   ?>
@@ -120,15 +120,15 @@ input[type="email"] {
 </style>
 <body>
     <div class="add" >
-    <form action="" method="post">
+    <form action="" method="GET">
     <div class="add2">
      <h3 class="email">email</h3>
-<input type="email" name="email-teacher" id="">
+<input type="email" name="email1" id="">
 <h3 class="name">name</h3>
-<input type="text" name="name-teacher" class="text1" >
+<input type="text" name="name1" class="text1" >
 <input type="submit" value="add" class="button" name="login1">
 <h3 class="name4">email</h3>
-<input type="text" name="delete-email"   class="text2">
+<input type="text" name="email"   class="text2">
 <input type="submit" value="delete" class="button2" name="delete">
         </div></form>
     </div>
